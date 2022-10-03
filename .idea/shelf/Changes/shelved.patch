@@ -1,0 +1,262 @@
+Index: src/main/resources/archetype-resources/src/test/java/AppTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/src/test/java/AppTest.java b/src/main/resources/archetype-resources/src/test/java/AppTest.java
+new file mode 100644
+--- /dev/null	(date 1664805231627)
++++ b/src/main/resources/archetype-resources/src/test/java/AppTest.java	(date 1664805231627)
+@@ -0,0 +1,38 @@
++package $org.example;
++
++import junit.framework.Test;
++import junit.framework.TestCase;
++import junit.framework.TestSuite;
++
++/**
++ * Unit test for simple App.
++ */
++public class AppTest 
++    extends TestCase
++{
++    /**
++     * Create the test case
++     *
++     * @param testName name of the test case
++     */
++    public AppTest( String testName )
++    {
++        super( testName );
++    }
++
++    /**
++     * @return the suite of tests being tested
++     */
++    public static Test suite()
++    {
++        return new TestSuite( AppTest.class );
++    }
++
++    /**
++     * Rigourous Test :-)
++     */
++    public void testApp()
++    {
++        assertTrue( true );
++    }
++}
+Index: src/main/resources/archetype-resources/src/main/java/App.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/src/main/java/App.java b/src/main/resources/archetype-resources/src/main/java/App.java
+new file mode 100644
+--- /dev/null	(date 1664805231619)
++++ b/src/main/resources/archetype-resources/src/main/java/App.java	(date 1664805231619)
+@@ -0,0 +1,13 @@
++package $org.example;
++
++/**
++ * Hello world!
++ *
++ */
++public class App 
++{
++    public static void main( String[] args )
++    {
++        System.out.println( "Hello World!" );
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1664807459672)
++++ b/.idea/workspace.xml	(date 1664807459672)
+@@ -0,0 +1,68 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="9c2fcf24-eaf2-44d2-824d-d7fecb05fc65" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectId" id="2FcxT68VigrkPYMlRasmQ1R1Blu" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
++  }
++}]]></component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="9c2fcf24-eaf2-44d2-824d-d7fecb05fc65" name="Changes" comment="" />
++      <created>1664805180240</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1664805180240</updated>
++      <workItem from="1664805187624" duration="2270000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+new file mode 100644
+--- /dev/null	(date 1664805231586)
++++ b/pom.xml	(date 1664805231586)
+@@ -0,0 +1,9 @@
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>org.example</groupId>
++  <artifactId>PP</artifactId>
++  <version>1.0-SNAPSHOT</version>
++  <name>Archetype - PP</name>
++  <url>http://maven.apache.org</url>
++</project>
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1664805178246)
++++ b/.gitignore	(date 1664805178246)
+@@ -0,0 +1,38 @@
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
++### IntelliJ IDEA ###
++.idea/modules.xml
++.idea/jarRepositories.xml
++.idea/compiler.xml
++.idea/libraries/
++*.iws
++*.iml
++*.ipr
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: src/main/resources/archetype-resources/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/archetype-resources/pom.xml b/src/main/resources/archetype-resources/pom.xml
+new file mode 100644
+--- /dev/null	(date 1664805231613)
++++ b/src/main/resources/archetype-resources/pom.xml	(date 1664805231613)
+@@ -0,0 +1,15 @@
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>$org.example</groupId>
++  <artifactId>$PP</artifactId>
++  <version>$1.0-SNAPSHOT</version>
++  <dependencies>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>3.8.1</version>
++      <scope>test</scope>
++    </dependency>
++  </dependencies>
++</project>
+Index: src/main/resources/META-INF/maven/archetype.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/META-INF/maven/archetype.xml b/src/main/resources/META-INF/maven/archetype.xml
+new file mode 100644
+--- /dev/null	(date 1664805231634)
++++ b/src/main/resources/META-INF/maven/archetype.xml	(date 1664805231634)
+@@ -0,0 +1,9 @@
++<archetype>
++  <id>PP</id>
++  <sources>
++    <source>src/main/java/App.java</source>
++  </sources>
++  <testSources>
++    <source>src/test/java/AppTest.java</source>
++  </testSources>
++</archetype>
